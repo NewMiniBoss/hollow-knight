@@ -1,7 +1,6 @@
 import Cards from '../ComponentsMain/Cards';
 import Trailer from '../ComponentsMain/Trailer'
 import DLCs from '../ComponentsMain/DLCs';
-import dream from '../../assets/dreams.png';
 
 const Main = () => {
     return (
@@ -29,23 +28,9 @@ const Main = () => {
                 p='O mundo de Hollow Knight é trazido à vida em detalhes vívidos e mal-humorados, suas cavernas vivas com criaturas bizarras e aterrorizantes, cada uma animada à mão em um estilo 2D tradicional.'
                 p2='Cada nova área que você descobrirá é lindamente única e estranha, repleta de novas criaturas e personagens para descobrir. O mundo de Hollow Knight vale a pena explorar apenas para apreciar as vistas e descobrir novas maravilhas escondidas fora do caminho batido.'
             />
-
             <Trailer />
-
             <h2>Hollow Knight se expande com 4 pacotes gigantes de conteúdo</h2>
-            <section className='dlcs'>
-                <DLCs
-                    h3='Sonhos Escondidos'
-                    img={dream}
-                    p='Novos inimigos poderosos surgem! New Boss luta. Novas atualizações. Música Nova.'
-                />
-                <DLCs
-                    h3='Sonhos Escondidos'
-                    img={dream}
-                    p='Novos inimigos poderosos surgem! New Boss luta. Novas atualizações. Música Nova.'
-                />
-            </section>
-
+            <DLCs />
         </main>
     )
 }
