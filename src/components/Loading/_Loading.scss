@@ -1,0 +1,48 @@
+@import '../../abstracts/colors';
+
+.loading {
+    background-color: $background-secundaria;
+    position: fixed;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: loadingBK 1s forwards 1.5s;
+
+    @keyframes loadingBK {
+        50% {
+            background-color: $background-principal;                     
+        }
+       
+        100% {
+            transform: translateY(-100vh);
+            background-color: $background-principal;
+        }
+    }
+
+    img {
+        transform: translateY(0px);
+        width: 200px;
+        animation: loading 2.5s forwards;
+
+        @keyframes loading {
+            50% {
+                transform: translateY(250px);
+            }
+
+            100% {
+                transform: translateY(-550px);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .loading {
+        img {
+            width: 120px;
+        }
+    }
+}

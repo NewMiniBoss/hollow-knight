@@ -1,4 +1,5 @@
 @import './abstracts/colors';
+@import './components/Loading/Loading';
 @import './components/Nav/Nav';
 @import './components/Header/Header';
 @import './components/Main/Main';
@@ -18,4 +19,8 @@ body {
     font-family: $fonte !important;
     letter-spacing: .5px !important;
     word-spacing: 2px !important;
+
+    .App {
+        background-color: $background-principal;
+    }
 }
