@@ -1,6 +1,6 @@
 @import '../../../abstracts/colors';
 
-section {
+.trailer {
     iframe {
         border: none;
         background-color: $background-principal;
@@ -11,8 +11,9 @@ section {
 }
 
 @media screen and (max-width: 600px) {
-    section {
+    .trailer {
         iframe {
+            padding: 0;
             height: 240px;
         }
     }

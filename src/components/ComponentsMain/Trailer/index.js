@@ -1,6 +1,6 @@
 const Trailer = () => {
     return (
-        <section>
+        <section className="trailer">
             <iframe src="https://www.youtube.com/embed/JuP47fRBsWg" title="YouTube video player" ></iframe>
         </section>
     )
