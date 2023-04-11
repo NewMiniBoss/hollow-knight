@@ -1,15 +1,19 @@
 @import '../../../abstracts/colors';
 
-iframe {
-    border: none;
-    background-color: $background-principal;
-    padding: 40px;
-    width: 100%;
-    height: 100vh;
+.trailer {
+    iframe {
+        border: none;
+        background-color: $background-principal;
+        padding: 40px;
+        width: 100%;
+        height: 100vh;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    iframe {
-        height: 240px;
+    .trailer {
+        iframe {
+            height: 240px;
+        }
     }
 }

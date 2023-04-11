@@ -1,0 +1,19 @@
+.cardsDlcs {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+    h3 {
+        font-size: 16px;
+        padding: 25px 0;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: center;
+    }
+}

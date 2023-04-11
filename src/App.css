@@ -137,11 +137,16 @@ header video {
 main {
   background-color: #000000;
 }
-main h1 {
+main h1,
+main h2 {
   color: #ffffff;
   text-align: center;
   font-size: 26px;
   padding: 40px 0 0 0;
+}
+main .dlcs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 section {
@@ -184,7 +189,7 @@ section div p {
     text-align: center;
   }
 }
-iframe {
+.trailer iframe {
   border: none;
   background-color: #000000;
   padding: 40px;
@@ -193,10 +198,27 @@ iframe {
 }
 
 @media screen and (max-width: 600px) {
-  iframe {
+  .trailer iframe {
     height: 240px;
   }
 }
+.cardsDlcs {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.cardsDlcs h3 {
+  font-size: 16px;
+  padding: 25px 0;
+}
+.cardsDlcs img {
+  width: 100%;
+}
+.cardsDlcs p {
+  font-size: 14px;
+  text-align: center;
+}
+
 *,
 html,
 body {
