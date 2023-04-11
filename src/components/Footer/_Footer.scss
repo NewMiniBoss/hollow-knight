@@ -1,0 +1,19 @@
+@import '../../abstracts/colors';
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background-color: $background-terceiro;
+
+    
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        span {
+            font-size: 12px;
+        }
+    }
+}

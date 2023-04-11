@@ -232,6 +232,19 @@ section div p {
     text-align: center;
   }
 }
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  background-color: #e83046;
+}
+
+@media screen and (max-width: 600px) {
+  footer span {
+    font-size: 12px;
+  }
+}
 *,
 html,
 body {
