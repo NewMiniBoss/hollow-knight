@@ -29,7 +29,7 @@ const Main = () => {
                 p2='Cada nova área que você descobrirá é lindamente única e estranha, repleta de novas criaturas e personagens para descobrir. O mundo de Hollow Knight vale a pena explorar apenas para apreciar as vistas e descobrir novas maravilhas escondidas fora do caminho batido.'
             />
             <Trailer />
-            <h2>Hollow Knight se expande com 4 pacotes gigantes de conteúdo</h2>
+            <h1>Hollow Knight se expande com 4 pacotes gigantes de conteúdo</h1>
             <DLCs />
         </main>
     )
