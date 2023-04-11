@@ -226,6 +226,7 @@ section div p {
   }
   .card-dlc img {
     width: 100%;
+    height: 265px;
   }
   .card-dlc p {
     text-align: center;
