@@ -1,0 +1,43 @@
+@import '../../abstracts/colors.scss';
+
+nav {
+    position: absolute;
+    height: 10vh;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 40px;
+    z-index: 1;
+
+    img {
+        width: 80px;
+    }
+
+    a {
+        cursor: pointer;
+        img {
+            width: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (max-width: 660px) {
+    nav {
+        padding: 0 0 0 20px;
+        top: 5px;
+        img {
+            width: 50px;
+        }
+
+        a {
+            img {
+                width: 120px;
+            }
+        }
+    }
+}

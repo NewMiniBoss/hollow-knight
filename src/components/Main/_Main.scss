@@ -1,0 +1,12 @@
+@import '../../abstracts/colors.scss';
+
+main {
+    background-color: $background-principal;
+
+    h1 {
+        color: $cor-principal;
+        text-align: center;
+        font-size: 26px;
+        padding: 40px 0 0 0;
+    }
+}
