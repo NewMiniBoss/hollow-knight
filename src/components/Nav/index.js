@@ -16,8 +16,8 @@ const Nav = () => {
             <a href='#.' onClick={eventMenu}><img src={knight} alt='Hollow Knight'></img></a>
 
             <div ref={elemento} className='menu-closed'>
-                <video autoPlay loop muted>
-                    <source src={menuVideo} type="video/mp4" />
+                <video src={menuVideo} autoPlay loop muted playsinline>
+                    {/* <source type="video/mp4" /> */}
                 </video>
             </div>
         </nav>
