@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header>
             <img src={hollow} alt="Hollow Knight logo"></img>
-            <video autoPlay loop muted>
+            <video autoPlay loop muted playsinline>
                 <source src={headerVideo} type="video/mp4" />
             </video>
         </header>
