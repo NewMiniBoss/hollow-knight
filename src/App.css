@@ -242,7 +242,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   footer span {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 *,
